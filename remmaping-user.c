@@ -43,7 +43,7 @@ int main(int argc, char *argv[])
     if (map_addr == MAP_FAILED)
     {
         perror("mmap");
-        printf("MAP_FAILED : %s", map_addr);
+        printf("MAP_FAILED : %p", map_addr);
         close(map_fd);
         return -1;
     }

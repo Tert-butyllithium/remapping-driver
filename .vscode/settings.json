@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "ppm_events_public.h": "c",
+        "syscalls.h": "c",
+        "types.h": "c",
+        "seq_file.h": "c",
+        "fs.h": "c",
+        "module.h": "c",
+        "proc_filter.h": "c",
+        "kthread.h": "c",
+        "sched.h": "c",
+        "cgroup.h": "c",
+        "remapping-driver.h": "c"
+    },
+    "C_Cpp.clang_format_style": "{BasedOnStyle: Google}"
+}
